@@ -1,0 +1,30 @@
+
+		.navbar-nav .nav-item:not(:last-child) {
+			border-right: 1px solid silver;
+		}
+
+		@media (max-width: 768px) {
+			.navbar-nav .nav-item:not(:last-child) {
+				border-right: none;
+			}
+		}
+
+		.navbar-brand {
+			font-family: 'Roboto', sans-serif;
+			font-size: 25px;
+			margin: 0px;
+		}
+		.table{
+			color: black;
+			
+		}
+		.thead{
+			background-color: rgb(4, 184, 255);
+			color:white;
+		}
+		.table .thead .tr .th{ 
+			text-align: center;
+   			vertical-align: center;
+		}
+		
+
